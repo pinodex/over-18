@@ -5,7 +5,7 @@ Watch age restricted YouTube videos without signing in.
 1. Head over to [releases](https://github.com/pinodex/over-18/releases) page.
 2. Download the CRX file from the latest release.
 3. Navigate to `chrome://extensions` on your Chrome browser.
-4. Drag the CRX file and install.
+4. Drag and drop the CRX file to the page and install.
 
 ## Usage
 ![](http://i.imgur.com/wXE3isk.png)
