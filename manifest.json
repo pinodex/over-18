@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Over 18",
+  "description": "Watch age restricted YouTube videos without signing in.",
+  "version": "1.0",
+  
+  "icons": {
+    "72": "icon.png"
+  },
+
+  "permissions": [
+    "*://*.youtube.com/"
+  ],
+
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+
+      "js": [
+        "extension.js"
+      ],
+
+      "matches": [
+        "*://www.youtube.com/*"
+      ]
+    }
+  ]
+}
